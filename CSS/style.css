@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    background-color: rgb(90, 150, 255);
+    border-radius: 15px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+input{
+    outline: none;
+    border-style: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+button{
+    cursor: pointer;
+    height: 33px;
+    width: 30px;
+    border-style: none;
+    border-radius: 15px;
+}
+
+ul{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    margin-right: 120px;
+}
+
+li{
+    list-style-type: none;
+    background-color: rgb(179, 72, 0);
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#modeBtn {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff9800;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin: 10px 0;
+}
+
+#modeBtn:hover {
+    background-color: #e65100;
+}
+
+body.nuit {
+    background-color: #181818;
+    color: #f1f1f1;
+}
+
+body.nuit .container {
+    background-color: #222b3a;
+}
+
+body.nuit li {
+    background-color: #333;
+    color: #fff;
+}
